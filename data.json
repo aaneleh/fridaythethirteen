@@ -1,0 +1,89 @@
+{
+    "movies": [
+        {
+            "title": "Friday The 13<sup>th</sup> Part. 1",
+            "year": "1980",
+            "image": "assets/images/FridayThe13_Part1.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
+            "rating": []
+        },
+
+        {
+            "title": "Friday The 13<sup>th</sup> Part. 2",
+            "year": "1981",
+            "image": "assets/images/FridayThe13_Part2.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
+            "rating": []
+        },
+        {
+            "title": "Friday The 13<sup>th</sup> Part. 3",
+            "year": "1982",
+            "image": "assets/images/FridayThe13_Part3.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
+            "rating": []
+        },
+        {
+            "title": "Friday The 13<sup>th</sup> Final Chapter",
+            "year": "1981",
+            "image": "assets/images/FridayThe13_Part4.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
+            "rating": []
+        },
+        {
+            "title": "Friday The 13<sup>th</sup> Part. 5",
+            "year": "1981",
+            "image": "assets/images/FridayThe13_Part5.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
+            "rating": []
+        },
+        {
+            "title": "Friday The 13<sup>th</sup> Part. 6",
+            "year": "1981",
+            "image": "assets/images/FridayThe13_Part6.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
+            "rating": []
+        },
+        {
+            "title": "Friday The 13<sup>th</sup> Part. 7",
+            "year": "1981",
+            "image": "assets/images/FridayThe13_Part7.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
+            "rating": []
+        },
+        {
+            "title": "Friday The 13<sup>th</sup> Part. 8",
+            "year": "1981",
+            "image": "assets/images/FridayThe13_Part8.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
+            "rating": []
+        },
+        {
+            "title": "Friday The 13<sup>th</sup> Part. 9",
+            "year": "1981",
+            "image": "assets/images/FridayThe13_Part9.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",   
+            "rating": []
+        },
+        {
+            "title": "Friday The 13<sup>th</sup> Part. 10",
+            "year": "1981",
+            "image": "assets/images/FridayThe13_Part10.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
+            "rating": []
+        },
+        {
+            "title": "Friday VS Freddy",
+            "year": "1981",
+            "image": "assets/images/FridayThe13_VsFreddy.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
+            "rating": []
+        },
+        {
+            "title": "Friday The 13<sup>th</sup>",
+            "year": "1981",
+            "image": "assets/images/FridayThe13_2009.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
+            "rating": []
+        }
+    ]
+}
