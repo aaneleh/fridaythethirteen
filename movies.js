@@ -25,15 +25,21 @@ for(var j = 0; j< movies.titles.length; j++){
         <div class="movies-description">
           <p> ${movies.description[j]} </p>
 
-          <div>
-            <img src="assets/images/5estrelas.png" width="100px"></img>
-          </div>
-
           <form>
-            <label for="vol">Rank (between 0-5):</label>
-            <input type="range" name="vol" min="0" max="5">
-            <br><br>
-            <input type="submit" value="Submit">
+            <div class="form-container">
+
+              <div class="input-container">
+              
+                <label class="rank-input" for="vol">Rank (between 0-5):</label>
+                <input class="rank-input" type="range" name="vol" min="0" max="5">
+                <br><br>
+                </div>
+                
+              <div>
+                <input class="button" type="submit" value="Submit">
+              </div>
+
+            </div>
           </form>
 
         </div>
@@ -57,15 +63,11 @@ for(var j = 0; j< movies.titles.length; j++){
       <div class="movies-description">
         <p> ${movies.description[j]} </p>
 
-        <div>
-          <img src="assets/images/5estrelas.png" width="100px"></img>
-        </div>
-
         <form>
           <label for="vol">Rank (between 0-5):</label>
           <input type="range" name="vol" min="0" max="5">
           <br><br>
-          <input type="submit" value="Submit">
+          <input class="button" type="submit" value="Submit" >
         </form>
         
       </div>

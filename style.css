@@ -18,6 +18,11 @@ body{
   color: #FFFFFF;
 }
 
+a{
+  color:#C22121;
+  text-decoration: underline;
+}
+
 /* HEADER */
 #header{
   transition: 0.4s;
@@ -61,5 +66,51 @@ body{
 
   margin: 10px 30px 50px;
 }
+.button {
+  background-color: #C22121;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-color: transparent;
+}
 
+/*HIGHLIGHTS*/
+#highlights{
+  display: flex;
+  justify-content: space-evenly;
+}
+.highlight-gifs {
+  width: 250px;
+  background-color: #1a1a1a;
+  padding: 5px;
+  border-radius: 5%;
+}
+.highlight-container{
+  text-align: center;
+}
+.gif-container{
+  overflow: hidden;
+  width: 260px;
+  height: 370px;
+}
 
+.highlight-description h2{
+  text-align: center;
+  font-size: 13px;
+  padding: 10px;
+  transition: font-size 1s;
+}
+.highlight-description{
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  position: relative;
+  bottom: 70px;
+  left: 0px;
+  transition: bottom 1s;
+}
+#gif3-container:hover .highlight-description, #gif3-container:hover .highlight-description h2,
+#gif2-container:hover .highlight-description, #gif2-container:hover .highlight-description h2,
+#gif1-container:hover .highlight-description, #gif1-container:hover .highlight-description h2 {
+  font-size: 19px;
+  bottom: 100px;
+}
