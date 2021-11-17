@@ -50,8 +50,8 @@ for(var j = 0; j< movies.titles.length; j++){
           <h1 class="movies-title">  ${movies.titles[j]} </h1>
           <h3 class="movies-year">  ${movies.year[j]} </h3>
           <picture>
-            <source srcset="${movies.srcLocal[j]}">
-            <source srcset="${movies.src[j]}">
+          <source srcset="${movies.src[j]}">
+          <source srcset="${movies.srcLocal[j]}">
             <img class= "movies-image" src = "${movies.srcLocal[j]}" width="300px"> </img>
           </picture>
         </div>
@@ -64,8 +64,8 @@ for(var j = 0; j< movies.titles.length; j++){
         <h1 class="movies-title">  ${movies.titles[j]} </h1>
         <h3 class="movies-year">  ${movies.year[j]} </h3>
         <picture>
-          <source srcset="${movies.srcLocal[j]}">
-          <source srcset="${movies.src[j]}">
+        <source srcset="${movies.src[j]}">
+        <source srcset="${movies.srcLocal[j]}">
           <img class= "movies-image" src = "${movies.srcLocal[j]}" width="300px"> </img>
         </picture>
       </div>
