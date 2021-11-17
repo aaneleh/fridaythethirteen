@@ -19,30 +19,37 @@ window.addEventListener('scroll',changeHeader);
 const gif_1 = document.getElementById('gif_1');
   gif_1.addEventListener("mouseover",
     function() {
-      gif_1.src = "assets/gifs/Primeira-Kill-gif.gif";
+      //gif_1.src = "assets/gifs/Primeira-Kill-gif.gif";
+      gif_1.src = "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/gifs/Primeira-Kill-gif.gif";
     });
   gif_1.addEventListener("mouseout",
     function(){
-      gif_1.src = "assets/gifs/Primeira-Kill-LastFrame.png";
+      //gif_1.src = "assets/gifs/Primeira-Kill-LastFrame.png";
+      gif_1.src = "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/gifs/Primeira-Kill-LastFrame.png";
     });
 
 const gif_2 = document.getElementById('gif_2');
   gif_2.addEventListener("mouseover",
     function() {
-      gif_2.src = "assets/gifs/Faca-Jogada-gif.gif";
+      //gif_2.src = "assets/gifs/Faca-Jogada-gif.gif";
+      gif_2.src = "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/gifs/Faca-Jogada-gif.gif";
+
     });
   gif_2.addEventListener("mouseout",
     function(){
-      gif_2.src = "assets/gifs/Faca-Jogada-LastFrame.png";
+      //gif_2.src = "assets/gifs/Faca-Jogada-LastFrame.png";
+      gif_2.src = "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/gifs/Faca-Jogada-LastFrame.png";
     });
 
 const gif_3 = document.getElementById('gif_3');
   gif_3.addEventListener("mouseover",
     function() {
-      gif_3.src = "assets/gifs/Quebrando-a-porta-gif.gif";
+      //gif_3.src = "assets/gifs/Quebrando-a-porta-gif.gif";
+      gif_3.src = "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/gifs/Quebrando-a-porta-gif.gif";
     });
   gif_3.addEventListener("mouseout",
     function(){
-      gif_3.src = "assets/gifs/Quebrando-a-porta-LastFrame.png";
+      //gif_3.src = "assets/gifs/Quebrando-a-porta-LastFrame.png";
+      gif_3.src = "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/gifs/Quebrando-a-porta-LastFrame.png";
     });
 
