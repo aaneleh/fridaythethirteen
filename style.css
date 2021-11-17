@@ -74,7 +74,7 @@ a{
   border-color: transparent;
 }
 
-/*HIGHLIGHTS*/
+/***** HIGHLIGHTS *****/
 #highlights{
   display: flex;
   justify-content: space-evenly;
@@ -94,6 +94,7 @@ a{
   height: 370px;
 }
 
+/*Descrição*/
 .highlight-description h2{
   text-align: center;
   font-size: 13px;
@@ -108,9 +109,28 @@ a{
   left: 0px;
   transition: bottom 1s;
 }
+/*Interatividade*/
 #gif3-container:hover .highlight-description, #gif3-container:hover .highlight-description h2,
 #gif2-container:hover .highlight-description, #gif2-container:hover .highlight-description h2,
 #gif1-container:hover .highlight-description, #gif1-container:hover .highlight-description h2 {
   font-size: 19px;
   bottom: 100px;
 }
+
+/*Responsividade*/
+@media screen and (max-width: 860px){
+
+  #highlights{
+    flex-direction: column;
+    align-items: center;
+  }
+/*
+  .movies-even, .movies-odd {
+    display: block;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+  }
+*/
+
+}
+

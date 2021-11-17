@@ -7,6 +7,7 @@ var movies = {
   titles: [],
   year: [],
   src: [],
+  srcLocal: [],
   description: [],
   rating: [ [ ] ]
 }
@@ -15,6 +16,7 @@ for(var i =0; i<data.movies.length; i++){
   movies.titles.push( data.movies[i].title  );
   movies.year.push  ( data.movies[i].year   );
   movies.src.push   ( data.movies[i].image  );
+  movies.srcLocal.push   ( data.movies[i].imageLocal  );
   movies.description.push   ( data.movies[i].description  );
 }
 
@@ -47,7 +49,11 @@ for(var j = 0; j< movies.titles.length; j++){
         <div>
           <h1 class="movies-title">  ${movies.titles[j]} </h1>
           <h3 class="movies-year">  ${movies.year[j]} </h3>
-          <img class= "movies-image" src = "${movies.src[j]}" width="300px"> </img>
+          <picture>
+            <source srcset="${movies.srcLocal[j]}">
+            <source srcset="${movies.src[j]}">
+            <img class= "movies-image" src = "${movies.srcLocal[j]}" width="300px"> </img>
+          </picture>
         </div>
       </div>
     `
@@ -57,7 +63,11 @@ for(var j = 0; j< movies.titles.length; j++){
       <div>
         <h1 class="movies-title">  ${movies.titles[j]} </h1>
         <h3 class="movies-year">  ${movies.year[j]} </h3>
-        <img class= "movies-image" src = "${movies.src[j]}" width="300px"> </img>
+        <picture>
+          <source srcset="${movies.srcLocal[j]}">
+          <source srcset="${movies.src[j]}">
+          <img class= "movies-image" src = "${movies.srcLocal[j]}" width="300px"> </img>
+        </picture>
       </div>
 
       <div class="movies-description">
