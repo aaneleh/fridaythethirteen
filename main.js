@@ -3,16 +3,20 @@ import './style.css'
 /* DIMINUIR O HEADER */
 function changeHeader(){
   const header = document.getElementById('header');
+  //const headerIcon = document.querySelector('#header svg');
+
+  /*
   this.scrollY > 150 ? header.classList.add('smaller-header') : header.classList.remove('smaller-header');
-  /* jeito com if e else comum
+  this.scrollY > 150 ? headerIcon.classList.add('smaller-header-icon') : headerIcon.classList.remove('smaller-header-icon');
+  */
+  
   if(this.scrollY >= 100){
     header.classList.add('smaller-header');
   } else {
     header.classList.remove('smaller-header');
   }
-  */
+  
 }
-
 window.addEventListener('scroll',changeHeader);
 
 /* INTERATIVIDADE COM OS GIFS */
@@ -53,3 +57,14 @@ const gif_3 = document.getElementById('gif_3');
       gif_3.src = "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/gifs/Quebrando-a-porta-LastFrame.png";
     });
 
+/* LISTA DE CONTEUDO */
+const openList = document.getElementById('open-content-list');
+const closeList = document.getElementById('close-content-list');
+
+const list = document.getElementById('content-list');
+openList.onclick = function(){
+  list.classList.toggle('active');
+}
+closeList.onclick = function(){
+  list.classList.remove('active');
+}
