@@ -6,7 +6,7 @@
             "image": "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/images/FridayThe13_Part1.png",
             "imageLocal": "assets/images/FridayThe13_Part1.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
-            "rating": []
+            "rating": [3]
         },
 
         {
@@ -15,7 +15,7 @@
             "image": "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/images/FridayThe13_Part2.png",
             "imageLocal": "assets/images/FridayThe13_Part2.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
-            "rating": []
+            "rating": [3]
         },
         {
             "title": "Friday The 13<sup>th</sup> Part. 3",
@@ -23,7 +23,7 @@
             "image": "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/images/FridayThe13_Part3.png",
             "imageLocal": "assets/images/FridayThe13_Part3.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
-            "rating": []
+            "rating": [5]
         },
         {
             "title": "Friday The 13<sup>th</sup> Final Chapter",
@@ -31,7 +31,7 @@
             "image": "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/images/FridayThe13_Part4.png",
             "imageLocal": "assets/images/FridayThe13_Part4.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
-            "rating": []
+            "rating": [4,5,5]
         },
         {
             "title": "Friday The 13<sup>th</sup> Part. 5",
@@ -39,7 +39,7 @@
             "image": "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/images/FridayThe13_Part5.png",
             "imageLocal": "assets/images/FridayThe13_Part5.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
-            "rating": []
+            "rating": [4]
         },
         {
             "title": "Friday The 13<sup>th</sup> Part. 6",
@@ -47,7 +47,7 @@
             "image": "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/images/FridayThe13_Part6.png",
             "imageLocal": "assets/images/FridayThe13_Part6.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
-            "rating": []
+            "rating": [3]
         },
         {
             "title": "Friday The 13<sup>th</sup> Part. 7",
@@ -55,7 +55,7 @@
             "image": "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/images/FridayThe13_Part7.png",
             "imageLocal": "assets/images/FridayThe13_Part7.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
-            "rating": []
+            "rating": [2]
         },
         {
             "title": "Friday The 13<sup>th</sup> Part. 8",
@@ -63,7 +63,7 @@
             "image": "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/images/FridayThe13_Part8.png",
             "imageLocal": "assets/images/FridayThe13_Part8.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
-            "rating": []
+            "rating": [2]
         },
         {
             "title": "Friday The 13<sup>th</sup> Part. 9",
@@ -71,7 +71,7 @@
             "image": "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/images/FridayThe13_Part9.png",
             "imageLocal": "assets/images/FridayThe13_Part9.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",   
-            "rating": []
+            "rating": [2]
         },
         {
             "title": "Friday The 13<sup>th</sup> Part. 10",
@@ -79,7 +79,7 @@
             "image": "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/images/FridayThe13_Part10.png",
             "imageLocal": "assets/images/FridayThe13_Part10.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
-            "rating": []
+            "rating": [2]
         },
         {
             "title": "Friday VS Freddy",
@@ -87,7 +87,7 @@
             "image": "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/images/FridayThe13_VsFreddy.png",
             "imageLocal": "assets/images/FridayThe13_VsFreddy.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
-            "rating": []
+            "rating": [2]
         },
         {
             "title": "Friday The 13<sup>th</sup>",
@@ -95,7 +95,7 @@
             "image": "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/images/FridayThe13_2009.png",
             "imageLocal": "assets/images/FridayThe13_2009.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel quam eu nulla dignissim tempus sed a quam. Vivamus sed diam pretium velit accumsan sagittis. Vivamus non accumsan ligula, in viverra velit. Maecenas in vestibulum ante. Fusce fermentum hendrerit nisl ac porttitor. Pellentesque congue auctor nisi, in vestibulum magna tincidunt eu. Nulla ornare interdum urna, eu laoreet velit euismod eu. Nam in suscipit neque, eget molestie odio. Sed id imperdiet felis. Nunc ut leo tristique, tempus mauris id, dignissim eros. Nam dignissim lectus eu libero vestibulum, quis lobortis ante dictum. Nulla eleifend sed justo et placerat.",
-            "rating": []
+            "rating": [1,2]
         }
     ]
 }

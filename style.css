@@ -22,6 +22,10 @@ a{
   color:#C22121;
   text-decoration: underline;
 }
+.section-title{
+  text-align: center;
+  font-size: 1.5em;
+}
 
 /* HEADER */
   #header{
@@ -171,6 +175,93 @@ a{
     font-size: 19px;
     bottom: 100px;
   }
+
+
+/**** RANKING ****/
+#ranking{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ranking-title{
+  font-size: 24px;
+}
+.ranking-container{
+  position: relative;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  column-gap: 30px;
+  height: 500px;
+}
+
+/*Ranking Itens*/
+/*ADICIONAR O TAMANHO MAXIMO PRA NÃO FERRAR OS TAMANHOS DEPENDO DO TAMANHO DO NOME*/
+.ranking-item{
+  background-color: #C22121;
+  position: relative;
+  width: 100px;
+}
+#rank-4 {
+  height: 100px;
+  top: 350px;
+}
+#rank-2 {
+  height: 200px;
+  top: 250px;
+}
+#rank-1 {
+  height: 300px;
+  top: 150px;
+}
+#rank-3 {
+  height: 150px;
+  top: 300px;
+}
+#rank-5 {
+  height: 50px;
+  top: 400px;
+}
+/*Ranking-itens texts*/
+.ranking-item *{
+  bottom: 200px;
+  position: relative;
+}
+.ranking-item h3, h2 {
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+}
+.ranking-item sup{
+  position: relative;
+  top: 0px;
+}
+.ranking-item img {
+  left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Responsividade*/
 @media screen and (max-width: 860px){
