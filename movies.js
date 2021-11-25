@@ -16,7 +16,7 @@ var movies = {
 //Puts all the json information in a object to read it more easily
 var sumRating;
 var average;
-for(var i =0; i<data.movies.length; i++){
+for(var i = 0; i<data.movies.length; i++){
   movies.titles.push( data.movies[i].title  );
   movies.year.push  ( data.movies[i].year   );
   movies.src.push   ( data.movies[i].image  );
@@ -63,9 +63,9 @@ for(var j = 0; j < movies.titles.length; j++){
           <h1 class="movies-title">  ${movies.titles[j]} </h1>
           <h3 class="movies-year">  ${movies.year[j]} </h3>
           <picture>
-          <source srcset="${movies.src[j]}">
-          <source srcset="${movies.srcLocal[j]}">
-            <img class= "movies-image" src = "${movies.srcLocal[j]}" width="300px"> </img>
+            <source srcset="${movies.src[j]}">
+            <source srcset="${movies.srcLocal[j]}">
+              <img class= "movies-image" src = "${movies.srcLocal[j]}" width="300px">
           </picture>
         </div>
       </div>
@@ -79,7 +79,7 @@ for(var j = 0; j < movies.titles.length; j++){
         <picture>
         <source srcset="${movies.src[j]}">
         <source srcset="${movies.srcLocal[j]}">
-          <img class= "movies-image" src = "${movies.srcLocal[j]}" width="300px"> </img>
+          <img class= "movies-image" src = "${movies.srcLocal[j]}" width="300px">
         </picture>
       </div>
 
@@ -126,12 +126,11 @@ for(i = 0; i < 5; i++){
   highestNumberIndex  = seekHighest(avgRantings,highestNumber);
   rankIndex[i]        = highestNumberIndex;
   avgRantings[highestNumberIndex] = null;
-
 }
 //writes the title of the top 5 movies in the html
 for(i = 0; i< 5;i++){
   console.log(movies.avgRating[rankIndex[i]]);
   document.querySelector('#rank-' + (i+1) +' h2').innerHTML = movies.titles[rankIndex[i]];
-  document.querySelector('#rank-' + (i+1) +' img').src = movies.srcLocal[rankIndex[i]];
+  document.querySelector('#rank-' + (i+1) +' img').src = movies.src[rankIndex[i]];
   document.querySelector('#rank-' + (i+1) +' h3').innerHTML = movies.avgRating[rankIndex[i]];
 }
