@@ -32,7 +32,6 @@ for(var i = 0; i<data.movies.length; i++){
 }
 /* MOVIES SECTIONS */
 //Writes all the films from the movies section with the information on the json
-//TRANSFORMAR ISSO NUMA FUNÇÃO QUE RETORNA TODA A DIV CRIADA DAÍ SÓ CHAMAR A FUNÇÃO E ApendiceChild NA SESSÃO 
 for(var j = 0; j < movies.titles.length; j++){
   if(j % 2 == 0){
     section.innerHTML+= `
@@ -60,7 +59,7 @@ for(var j = 0; j < movies.titles.length; j++){
         </div>
 
         <div>
-          <h1 class="movies-title">  ${movies.titles[j]} </h1>
+          <h2 class="movies-title">  ${movies.titles[j]} </h2>
           <h3 class="movies-year">  ${movies.year[j]} </h3>
           <picture>
             <source srcset="${movies.src[j]}">
@@ -100,9 +99,9 @@ for(var j = 0; j < movies.titles.length; j++){
   }
 
 /* RANKING SECTION */
+
 //Saves the order of the highests rankings
 var rankIndex = [ ];
-
 //copy all the ratings to another array so now I can change the numbers to find the info I need
 var avgRantings = [];
 for(i=0;i<movies.avgRating.length;i++){
@@ -118,18 +117,18 @@ function seekHighest(array,number){
     }
   }
 }
+//find the highest number in the array then find its index using the function above then "deletes" this number and saves its position
 var highestNumber;
 var highestNumberIndex;
-//find the highest number in the array then find its index using the function above then "deletes" this number and saves its position
 for(i = 0; i < 5; i++){
   highestNumber       = Math.max.apply(null,avgRantings)
   highestNumberIndex  = seekHighest(avgRantings,highestNumber);
   rankIndex[i]        = highestNumberIndex;
   avgRantings[highestNumberIndex] = null;
 }
+
 //writes the title of the top 5 movies in the html
 for(i = 0; i< 5;i++){
-  console.log(movies.avgRating[rankIndex[i]]);
   document.querySelector('#rank-' + (i+1) +' h2').innerHTML = movies.titles[rankIndex[i]];
   document.querySelector('#rank-' + (i+1) +' img').src = movies.src[rankIndex[i]];
   document.querySelector('#rank-' + (i+1) +' h3').innerHTML = movies.avgRating[rankIndex[i]];

@@ -1,25 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/* Color Theme Swatches in Hex */
-.Shades-+-Jewel-Red-1-hex { color: #000000; }
-.Shades-+-Jewel-Red-2-hex { color: #545454; }
-.Shades-+-Jewel-Red-3-hex { color: #A8A8A8; }
-.Shades-+-Jewel-Red-4-hex { color: #FFFFFF; }
-.Shades-+-Jewel-Red-5-hex { color: #C22121; }
+:root {
+  --background-color: #000000;
+  --background-highlight: #292929;
+  
+  --main-font-color: #FFFFFF;
+  --secundary-font-color: #C22121;
+  
+  --gradient-start: #1E1E1E; /*rgba(30,30,30,1)*/
+  --gradient-end: #000000; /*rgba(0,0,0,1)*/
+}
 
 body{
   margin: 0;
   padding: 0;
   font-family: 'Mohave', sans-serif;
 
-  background: rgb(0,0,0);
-
-  background: linear-gradient(0deg, rgba(0,0,0,1) 90%, rgba(30,30,30,1) 100%);
+  background: var(--background-color);
+  background: linear-gradient(0deg, var(--gradient-end) 90%, var(--gradient-start) 100%);
   color: #FFFFFF;
 }
 
+h1{
+  font-size: 32px;
+}
+h2{
+  font-size: 28px;
+}
+h3{
+  font-size: 24px;
+}
+p, label{
+  font-size: 18px;
+}
+
 a{
-  color:#C22121;
+  color:var(--secundary-font-color);
   text-decoration: underline;
 }
 .section-title{
@@ -41,21 +57,23 @@ a{
 
     width: 100%;
     max-width: 100%;
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: var(--background-color);
+    color: var(--main-font-color);
 
-    box-shadow: 0px 2px 10px #292929;
+    box-shadow: 0px 2px 10px var(--background-highlight);
   }
 
   /* SMALLER HEADER */
   .smaller-header{
     transition: 0.4s;
     height: 55px;
-    font-size: 0.6rem;
   }
   .smaller-header h1{
     position: relative;
+    top: -10px;
     left: -10px;
+    font-size: 24px;
+    transition: 0.4s;
   }
   /* HEADER ICON*/
   .header-icon {
@@ -76,8 +94,8 @@ a{
 
     z-index: 3;
     
-    background-color: #000000;
-    box-shadow: 0px 2px 10px #292929;
+    background-color: var(--background-color);
+    box-shadow: 0px 2px 10px var(--background-highlight);
 
     visibility: hidden;
     opacity: 0;
@@ -131,8 +149,8 @@ a{
     margin: 10px 30px 50px;
   }
   .button {
-    background-color: #C22121;
-    color: #FFFFFF;
+    background-color: var(--secundary-font-color);
+    color: var(--main-font-color);
     padding: 10px 20px;
     border-radius: 10px;
     border-color: transparent;
@@ -145,7 +163,7 @@ a{
   }
   .highlight-gifs {
     width: 250px;
-    background-color: #1a1a1a;
+    background-color: var(--background-highlight);
     padding: 5px;
     border-radius: 5%;
   }
@@ -165,7 +183,7 @@ a{
     transition: font-size 1s;
   }
   .highlight-description{
-    background-color: #1a1a1a;
+    background-color: var(--background-highlight);
     border-radius: 10px;
     position: relative;
     bottom: 70px;
@@ -184,12 +202,10 @@ a{
 
 /**** RANKING ****/
 #ranking{
+  padding-top: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-.ranking-title{
-  font-size: 24px;
 }
 .ranking-container{
   position: relative;
@@ -228,13 +244,13 @@ a{
 }
 /*Ranking-itens texts*/
 .ranking-item *{
-  bottom: 200px;
+  bottom: 225px;
   position: relative;
 }
-.ranking-item h3, h2 {
+.ranking-item h3, .ranking-item h2 {
   text-align: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 20px;
 }
 .ranking-item sup{
   position: relative;
@@ -242,6 +258,8 @@ a{
 }
 .ranking-item picture, .ranking-item img{
   left: 10px;
+  box-shadow: 1px 8px 10px var(--background-color);
+
 }
 /***FOOTER***/
 #footer {
@@ -265,20 +283,27 @@ a{
 
 /*Responsividade*/
 @media screen and (max-width: 860px){
+
+
+
+
+  #movies .movies-even{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #movies .movies-odd{
+    display: flex;
+    flex-direction: column;
+  }
   #highlights{
     flex-direction: column;
     align-items: center;
   }
+  #ranking #rank-4, #ranking #rank-5{
+    visibility: hidden;
+  }
   #footer div {
     flex-direction: column;
   }
-  
-/*
-  .movies-even, .movies-odd {
-    display: block;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr;
-  }
-*/
 }
 
