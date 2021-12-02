@@ -7,13 +7,35 @@ function changeHeader(){
   if(this.scrollY >= 100){
     header.style.removeProperty('height');
     header.classList.add('smaller-header');
-
   } else {
     header.classList.remove('smaller-header');
   }
-  
 }
 window.addEventListener('scroll',changeHeader);
+
+/* LISTA DE CONTEUDO */
+const openList = document.getElementById('open-content-list');
+const closeList = document.getElementById('close-content-list');
+
+const list = document.getElementById('content-list');
+openList.onclick = function(){
+  list.classList.toggle('active');
+}
+closeList.onclick = function(){
+  list.classList.remove('active');
+}
+
+/* DIMINUIR O HEADER */
+function showArrow(){
+  const arrow = document.getElementById('return-arrow');
+
+  if(this.scrollY >= 1000){
+    arrow.style.opacity = "1";
+  } else {
+    arrow.style.opacity = "0";
+  }
+}
+window.addEventListener('scroll',showArrow);
 
 /* INTERATIVIDADE COM OS GIFS */
 const gif_1 = document.getElementById('gif_1');
@@ -46,15 +68,3 @@ const gif_3 = document.getElementById('gif_3');
     function(){
       gif_3.src = "https://raw.githubusercontent.com/aaneleh/fridaythethirteen/main/assets/gifs/Quebrando-a-porta-LastFrame.png";
     });
-
-/* LISTA DE CONTEUDO */
-const openList = document.getElementById('open-content-list');
-const closeList = document.getElementById('close-content-list');
-
-const list = document.getElementById('content-list');
-openList.onclick = function(){
-  list.classList.toggle('active');
-}
-closeList.onclick = function(){
-  list.classList.remove('active');
-}
