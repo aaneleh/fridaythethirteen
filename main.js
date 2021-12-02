@@ -30,9 +30,9 @@ function showArrow(){
   const arrow = document.getElementById('return-arrow');
 
   if(this.scrollY >= 1000){
-    arrow.style.opacity = "1";
+    arrow.style.right = "50px";
   } else {
-    arrow.style.opacity = "0";
+    arrow.style.right = "-50px";
   }
 }
 window.addEventListener('scroll',showArrow);

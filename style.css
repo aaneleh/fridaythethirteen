@@ -42,8 +42,13 @@ a{
 }
 /* RETURN ARROW */
 div#return-arrow{
-  transition: 0.3s;
-  opacity: 0;
+  /*Position*/
+  position: fixed;
+  right: -50px;
+  bottom: 100px;
+  z-index: 3;
+
+  transition: right 0.3s;
 }
 
 .return-arrow {
@@ -52,13 +57,6 @@ div#return-arrow{
   border-radius: 5px;
   box-shadow: 0px 0px 5px var(--background-color);
   padding: 5px;
-
-  /*Position*/
-  position: fixed;
-  right: 50px;
-  bottom: 100px;
-  z-index: 3;
-
 }
 .return-arrow a{
   text-decoration: none;
