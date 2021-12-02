@@ -1,6 +1,7 @@
 import './style.css'
 import * as data from '/data.json';
 
+
 //html element that will be edited
 const section = document.querySelector('#movies');
 
@@ -11,11 +12,13 @@ var movies = {
   src: [],
   srcLocal: [],
   description: [],
-  avgRating: []
+  avgRating: [],
+  allRating: []
 }
 //Puts all the json information in a object to read it more easily
 var sumRating;
 var average;
+var ratings = [];
 for(var i = 0; i<data.movies.length; i++){
   movies.titles.push( data.movies[i].title  );
   movies.year.push  ( data.movies[i].year   );
@@ -27,79 +30,44 @@ for(var i = 0; i<data.movies.length; i++){
   for(j=0;j< data.movies[i].rating.length; j++){
     sumRating += data.movies[i].rating[j];
   }
-  average = sumRating / data.movies[i].rating.length
+
+  average = sumRating / data.movies[i].rating.length;
   movies.avgRating.push (Math.round(average * 100) / 100);
 }
 /* MOVIES SECTIONS */
 //Writes all the films from the movies section with the information on the json
+var className;
 for(var j = 0; j < movies.titles.length; j++){
   if(j % 2 == 0){
-    section.innerHTML+= `
-      <div class ="movies-even">
-        <div class="movies-description">
-          <p> ${movies.description[j]} </p>
-
-          <form>
-            <div class="form-container">
-
-              <div class="input-container">
-              
-                <label class="rank-input" for="vol">Rank (between 0-5):</label>
-                <input class="rank-input" type="range" name="vol" min="0" max="5">
-                <br><br>
-                </div>
-                
-              <div>
-                <input class="button" type="submit" value="Submit">
-              </div>
-
-            </div>
-          </form>
-
-        </div>
-
-        <div>
-          <h2 class="movies-title">  ${movies.titles[j]} </h2>
-          <h3 class="movies-year">  ${movies.year[j]} </h3>
-          <picture>
-            <source srcset="${movies.src[j]}">
-            <source srcset="${movies.srcLocal[j]}">
-              <img class= "movies-image" src = "${movies.srcLocal[j]}" width="300px">
-          </picture>
-        </div>
-      </div>
-    `
+    className = "movies-even";
   } else {
-    section.innerHTML+= `
-    <div class ="movies-odd">
-      <div>
-        <h1 class="movies-title">  ${movies.titles[j]} </h1>
-        <h3 class="movies-year">  ${movies.year[j]} </h3>
-        <picture>
-        <source srcset="${movies.src[j]}">
-        <source srcset="${movies.srcLocal[j]}">
-          <img class= "movies-image" src = "${movies.srcLocal[j]}" width="300px">
-        </picture>
-      </div>
-
-      <div class="movies-description">
-        <p> ${movies.description[j]} </p>
-
-        <form>
-          <label for="vol">Rank (between 0-5):</label>
-          <input type="range" name="vol" min="0" max="5">
-          <br><br>
-          <input class="button" type="submit" value="Submit" >
-        </form>
-        
-      </div>
-      </div>
-      `
-    }
+    className = "movies-odd";
   }
+  section.innerHTML+= `
+  <div class =" ${className} ">
+    <div>
+      <h1 class="movies-title">  ${movies.titles[j]} </h1>
+      <h3 class="movies-year">  ${movies.year[j]} </h3>
+      <picture>
+      <source srcset="${movies.src[j]}">
+      <source srcset="${movies.srcLocal[j]}">
+        <img class= "movies-image" src = "${movies.srcLocal[j]}" width="300px">
+      </picture>
+    </div>
+
+    <div class="movies-description">
+      <p> ${movies.description[j]} </p>
+      <form id="form-${j}">
+        <label for="vol">Rank (between 0-5):</label>
+        <input type="range" name="vol" min="0" max="5" id="input-${j}">
+        <br><br>
+        <input class="button" type="submit" value="Submit">
+      </form>
+    </div>
+  </div> `
+}
 
 /* RANKING SECTION */
-
 //Saves the order of the highests rankings
 var rankIndex = [ ];
 //copy all the ratings to another array so now I can change the numbers to find the info I need
