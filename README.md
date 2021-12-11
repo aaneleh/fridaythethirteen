@@ -41,6 +41,3 @@ Or you can see for yourself here: https://fridaythethirteen.vercel.app/
 No momento estou trabalhando em outro projeto, mas ainda gostaria de aprimorar, talvez no futuro, o backend dessa página para adicionar informações no .json.
 <br/> // <br/>
 I currently working on another project, but I'd like to, maybe, improve in the future the backend on this page to add info on the .json
-
-
-
