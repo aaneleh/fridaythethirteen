@@ -2,6 +2,7 @@
 ![Badge status](https://img.shields.io/badge/status-done%20for%20now-green)
 
 Está escrito tanto em Português como em inglês, porque sim.
+<br />
 It's written both in English and Portuguese, because why not.
 
 ## Indice
