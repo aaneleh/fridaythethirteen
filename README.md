@@ -33,8 +33,10 @@ Or you can see for yourself here: https://fridaythethirteen.vercel.app/
 
 ## Tecnologias Utilizadas
 
-- `Vite js vanilla`
-- `HTML & CSS`
+- <img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg"  width="20px" height="auto" /> **Vite JS**
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"  width="20px" height="auto" /> **Javascript**
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"  width="20px" height="auto" /> **HTML**
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"  width="20px" height="auto" /> **CSS**
 
 ## Status
 
